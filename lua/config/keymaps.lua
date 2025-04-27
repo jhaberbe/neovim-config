@@ -9,6 +9,7 @@ vim.o.shiftwidth = 4
 
 -- Normal Mode
 vim.api.nvim_set_keymap('n', '<leader>lz', ':Lazy<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>ng', ':Neogit<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>tt', ':ToggleTerm<CR>', { noremap = true, silent = true })
 
 -- Visual Mode
